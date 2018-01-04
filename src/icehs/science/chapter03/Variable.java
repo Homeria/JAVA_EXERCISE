@@ -10,8 +10,10 @@ public class Variable {
 		int totalGoodsPrice = 1111111;
 		//int a = 5; ±ÝÁö
 		System.out.println(age);
-		System.out.print(age);
-		System.out.print(age);
+		System.out.println(korScore);
+		System.out.println(engScore);
+		System.out.println(mathScore);
+		System.out.println(totalGoodsPrice);
 	}
 
 }
