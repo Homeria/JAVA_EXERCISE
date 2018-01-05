@@ -1,6 +1,6 @@
 package icehs.science.chapter05;
 
-public class ValuationBasisTest {
+public class SwitchCaseTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,18 +17,14 @@ public class ValuationBasisTest {
 		result += fifthNo * 0.27;
 		
 		System.out.println("평가 점수 : " + result);
-		
-		if (result >= 95 && result <= 100) {
-			System.out.println("Special Class 입니다.");
-		}else if (result >= 90) {
-			System.out.println("Gold Class 입니다.");
-		}else if (result >= 85) {
-			System.out.println("Silver Class 입니다.");
-		}else if (result >= 80) {
-			System.out.println("Bronze Class 입니다.");
-		}else {
-			System.out.println("Member 입니다.");
+		switch((int) result / 10) {
+		case 9 : System.out.println("Special Class 입니다."); break; 
+		case 8 : System.out.println("Gold Class 입니다."); break;
+		case 7 : System.out.println("Silver Class 입니다."); break;
+		case 6 : System.out.println("Bronze Class 입니다."); break;
+		default : System.out.println("Member 입니다."); break;
 		}
+		
 		
 		
 		
