@@ -19,8 +19,8 @@ public class Account {
 	
 	void withdraw(int money) {
 		if(money < 0) {
-			System.out.println("[에러] 금액은 음수를 입력할 수 없습니다.")
-		} else if {
+			System.out.println("[에러] 금액은 음수를 입력할 수 없습니다.");
+		} else if (balance < money) {
 			System.out.println("[에러] 잔액이 부족합니다.");
 		} else {
 			balance -= money;

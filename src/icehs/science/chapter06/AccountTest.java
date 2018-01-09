@@ -8,7 +8,6 @@ public class AccountTest {
 		hong.accName = "ȫ�浿";
 		hong.accNo = "123-456789";
 		hong.balance = 10000;
-		
 		hong.printAccountInfo();
 		
 		hong.deposit(20000);
